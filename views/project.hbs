@@ -1,0 +1,48 @@
+
+<html lang="en">
+    <head>
+        <title>Group Project</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="css/style.css" />
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    </head>
+    <body onload="fetchStudents()"> 
+        <h1>What did you like most about the bootcamp?</h1>
+       
+        
+    <form>
+    
+    <div><input type="checkbox" value ="The Technologies Used" name="Bootcamp"  id="P1" class="check">
+   <span>The Technologies Used</span> </div>
+     
+    <div><input type="checkbox" value ="The Skills Acquired" name="Bootcamp"  id="P2" class="check">
+    <span>The Skills Acquired</span> </div>
+     
+     <div><input type="checkbox" value ="The Food And Drinks" name="Bootcamp"  id="P3" class="check">
+    <span>The Food And Drinks</span> </div>
+
+     <div><input type="checkbox" value ="The Accomodation" name="Bootcamp"  id="P4" class="check">
+     <span>The Accomodation</span> </div>
+
+     <div><input type="checkbox" value ="The Trainers" name="Bootcamp"  id="P5" class="check">
+    <span>The Trainers</span> </div>
+
+     <div><input type="checkbox" value ="Your Fellow Students" name="Bootcamp"  id="P6" class="check" >
+    <span>Your Fellow Students</span> </div>
+     
+     <div><input type="checkbox" value ="Nothing" name="Bootcamp"  id="P7" onclick="disableAll()" class="checker">
+     <span>Nothing</span> </div>
+     <div><input type="submit" value="submit"> </div>
+     <canvas id="cht" style="max-width: 700px;width: 100%;"> </canvas>
+     </form>
+    
+  </body>
+  <script src="js/main.js"></script>
+  <script>
+     // let studentsNum=fetchStudentsNum();
+      //console.log(studentsNum);
+      
+  </script>
+  </html>
